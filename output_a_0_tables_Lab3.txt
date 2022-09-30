@@ -1,0 +1,144 @@
+***** Linear Probing Random Order Start *****
+Table size: 11
+Number of records: 9
+Index = 0, Key = 242, Value = 484
+Index = 1, Key = 23, Value = 46
+Index = 2, Key = 122, Value = 244
+Index = 3, Key = 56, Value = 112
+Index = 4, Key = 26, Value = 52
+Index = 5, Key = 48, Value = 96
+Index = 6, Key = 39, Value = 78
+Index = 7, Key = 314, Value = 628
+Index = 9, Key = 31, Value = 62
+Probing mode: Linear
+Number of collisions: 10
+***** Linear Probing Random Order End *****
+
+***** Quadratic Probing Random Order Start *****
+Table size: 11
+Number of records: 9
+Index = 0, Key = 242, Value = 484
+Index = 1, Key = 23, Value = 46
+Index = 2, Key = 122, Value = 244
+Index = 4, Key = 26, Value = 52
+Index = 5, Key = 56, Value = 112
+Index = 6, Key = 39, Value = 78
+Index = 7, Key = 314, Value = 628
+Index = 8, Key = 48, Value = 96
+Index = 9, Key = 31, Value = 62
+Probing mode: Quadratic
+Number of collisions: 12
+***** Quadratic Probing Random Order End *****
+
+***** Double Hashing Probing Random Order Start *****
+Table size: 11
+Number of records: 9
+Index = 0, Key = 242, Value = 484
+Index = 1, Key = 23, Value = 46
+Index = 4, Key = 26, Value = 52
+Index = 5, Key = 122, Value = 244
+Index = 6, Key = 39, Value = 78
+Index = 7, Key = 48, Value = 96
+Index = 8, Key = 56, Value = 112
+Index = 9, Key = 31, Value = 62
+Index = 10, Key = 314, Value = 628
+Probing mode: Double hashing
+Number of collisions: 18
+***** Double Hashing Probing Random Order End *****
+
+***** Linear Probing Ascending Order Start *****
+Table size: 11
+Number of records: 9
+Index = 0, Key = 242, Value = 484
+Index = 1, Key = 23, Value = 46
+Index = 2, Key = 56, Value = 112
+Index = 3, Key = 122, Value = 244
+Index = 4, Key = 26, Value = 52
+Index = 5, Key = 48, Value = 96
+Index = 6, Key = 39, Value = 78
+Index = 7, Key = 314, Value = 628
+Index = 9, Key = 31, Value = 62
+Probing mode: Linear
+Number of collisions: 10
+***** Linear Probing Ascending Order End *****
+
+***** Quadratic Probing Ascending Order Start *****
+Table size: 11
+Number of records: 9
+Index = 0, Key = 242, Value = 484
+Index = 1, Key = 23, Value = 46
+Index = 2, Key = 56, Value = 112
+Index = 4, Key = 26, Value = 52
+Index = 5, Key = 48, Value = 96
+Index = 6, Key = 39, Value = 78
+Index = 7, Key = 314, Value = 628
+Index = 9, Key = 31, Value = 62
+Index = 10, Key = 122, Value = 244
+Probing mode: Quadratic
+Number of collisions: 12
+***** Quadratic Probing Ascending Order End *****
+
+***** Double Hashing Probing Ascending Order Start *****
+Table size: 11
+Number of records: 9
+Index = 0, Key = 242, Value = 484
+Index = 1, Key = 23, Value = 46
+Index = 2, Key = 122, Value = 244
+Index = 4, Key = 26, Value = 52
+Index = 5, Key = 48, Value = 96
+Index = 6, Key = 39, Value = 78
+Index = 7, Key = 314, Value = 628
+Index = 8, Key = 56, Value = 112
+Index = 9, Key = 31, Value = 62
+Probing mode: Double hashing
+Number of collisions: 12
+***** Double Hashing Probing Ascending Order End *****
+
+***** Linear Probing Descending Order Start *****
+Table size: 11
+Number of records: 9
+Index = 0, Key = 242, Value = 484
+Index = 1, Key = 122, Value = 244
+Index = 2, Key = 56, Value = 112
+Index = 3, Key = 23, Value = 46
+Index = 4, Key = 48, Value = 96
+Index = 5, Key = 26, Value = 52
+Index = 6, Key = 314, Value = 628
+Index = 7, Key = 39, Value = 78
+Index = 9, Key = 31, Value = 62
+Probing mode: Linear
+Number of collisions: 10
+***** Linear Probing Descending Order End *****
+
+***** Quadratic Probing Descending Order Start *****
+Table size: 11
+Number of records: 9
+Index = 0, Key = 242, Value = 484
+Index = 1, Key = 122, Value = 244
+Index = 2, Key = 56, Value = 112
+Index = 4, Key = 48, Value = 96
+Index = 5, Key = 26, Value = 52
+Index = 6, Key = 314, Value = 628
+Index = 7, Key = 39, Value = 78
+Index = 9, Key = 31, Value = 62
+Index = 10, Key = 23, Value = 46
+Probing mode: Quadratic
+Number of collisions: 12
+***** Quadratic Probing Descending Order End *****
+
+***** Double Hashing Probing Descending Order Start *****
+Table size: 11
+Number of records: 9
+Index = 0, Key = 242, Value = 484
+Index = 1, Key = 122, Value = 244
+Index = 2, Key = 31, Value = 62
+Index = 4, Key = 48, Value = 96
+Index = 5, Key = 23, Value = 46
+Index = 6, Key = 314, Value = 628
+Index = 8, Key = 56, Value = 112
+Index = 9, Key = 39, Value = 78
+Index = 10, Key = 26, Value = 52
+Probing mode: Double hashing
+Number of collisions: 18
+***** Double Hashing Probing Descending Order End *****
+

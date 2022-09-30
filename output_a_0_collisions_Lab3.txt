@@ -1,0 +1,147 @@
+***** Random Order Start *****
+Hash function: hash(key) = key
+Secondary hash function: hash2(key) = R - (key % R), where R = 7
+
+----- Format of output -----
+Key : Value -> retrievedValue, Collisions: numCollisions
+
+26 : 52 -> 52, Collisions: 0
+26 : 52 -> 52, Collisions: 0
+26 : 52 -> 52, Collisions: 0
+
+31 : 62 -> 62, Collisions: 0
+31 : 62 -> 62, Collisions: 0
+31 : 62 -> 62, Collisions: 0
+
+23 : 46 -> 46, Collisions: 0
+23 : 46 -> 46, Collisions: 0
+23 : 46 -> 46, Collisions: 0
+
+122 : 244 -> 244, Collisions: 2
+122 : 244 -> 244, Collisions: 2
+122 : 244 -> 244, Collisions: 2
+
+56 : 112 -> 112, Collisions: 4
+56 : 112 -> 112, Collisions: 4
+56 : 112 -> 112, Collisions: 2
+
+39 : 78 -> 78, Collisions: 0
+39 : 78 -> 78, Collisions: 0
+39 : 78 -> 78, Collisions: 0
+
+48 : 96 -> 96, Collisions: 2
+48 : 96 -> 96, Collisions: 4
+48 : 96 -> 96, Collisions: 6
+
+314 : 628 -> 628, Collisions: 2
+314 : 628 -> 628, Collisions: 2
+314 : 628 -> 628, Collisions: 8
+
+242 : 484 -> 484, Collisions: 0
+242 : 484 -> 484, Collisions: 0
+242 : 484 -> 484, Collisions: 0
+
+----- Total number of collisions -----
+Linear probing: 10
+Quadratic probing: 12
+Double hashing probing: 18
+***** Random Order End *****
+
+***** Ascending Order Start *****
+Hash function: hash(key) = key
+Secondary hash function: hash2(key) = R - (key % R), where R = 7
+
+----- Format of output -----
+Key : Value -> retrievedValue, Collisions: numCollisions
+
+23 : 46 -> 46, Collisions: 0
+23 : 46 -> 46, Collisions: 0
+23 : 46 -> 46, Collisions: 0
+
+26 : 52 -> 52, Collisions: 0
+26 : 52 -> 52, Collisions: 0
+26 : 52 -> 52, Collisions: 0
+
+31 : 62 -> 62, Collisions: 0
+31 : 62 -> 62, Collisions: 0
+31 : 62 -> 62, Collisions: 0
+
+39 : 78 -> 78, Collisions: 0
+39 : 78 -> 78, Collisions: 0
+39 : 78 -> 78, Collisions: 0
+
+48 : 96 -> 96, Collisions: 2
+48 : 96 -> 96, Collisions: 2
+48 : 96 -> 96, Collisions: 2
+
+56 : 112 -> 112, Collisions: 2
+56 : 112 -> 112, Collisions: 2
+56 : 112 -> 112, Collisions: 2
+
+122 : 244 -> 244, Collisions: 4
+122 : 244 -> 244, Collisions: 6
+122 : 244 -> 244, Collisions: 6
+
+242 : 484 -> 484, Collisions: 0
+242 : 484 -> 484, Collisions: 0
+242 : 484 -> 484, Collisions: 0
+
+314 : 628 -> 628, Collisions: 2
+314 : 628 -> 628, Collisions: 2
+314 : 628 -> 628, Collisions: 2
+
+----- Total number of collisions -----
+Linear probing: 10
+Quadratic probing: 12
+Double hashing probing: 12
+***** Ascending Order End *****
+
+***** Descending Order Start *****
+Hash function: hash(key) = key
+Secondary hash function: hash2(key) = R - (key % R), where R = 7
+
+----- Format of output -----
+Key : Value -> retrievedValue, Collisions: numCollisions
+
+314 : 628 -> 628, Collisions: 0
+314 : 628 -> 628, Collisions: 0
+314 : 628 -> 628, Collisions: 0
+
+242 : 484 -> 484, Collisions: 0
+242 : 484 -> 484, Collisions: 0
+242 : 484 -> 484, Collisions: 0
+
+122 : 244 -> 244, Collisions: 0
+122 : 244 -> 244, Collisions: 0
+122 : 244 -> 244, Collisions: 0
+
+56 : 112 -> 112, Collisions: 2
+56 : 112 -> 112, Collisions: 2
+56 : 112 -> 112, Collisions: 2
+
+48 : 96 -> 96, Collisions: 0
+48 : 96 -> 96, Collisions: 0
+48 : 96 -> 96, Collisions: 0
+
+39 : 78 -> 78, Collisions: 2
+39 : 78 -> 78, Collisions: 2
+39 : 78 -> 78, Collisions: 2
+
+31 : 62 -> 62, Collisions: 0
+31 : 62 -> 62, Collisions: 0
+31 : 62 -> 62, Collisions: 2
+
+26 : 52 -> 52, Collisions: 2
+26 : 52 -> 52, Collisions: 2
+26 : 52 -> 52, Collisions: 6
+
+23 : 46 -> 46, Collisions: 4
+23 : 46 -> 46, Collisions: 6
+23 : 46 -> 46, Collisions: 6
+
+----- Total number of collisions -----
+Linear probing: 10
+Quadratic probing: 12
+Double hashing probing: 18
+***** Descending Order End *****
+
